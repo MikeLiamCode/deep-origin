@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+}
+
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.taskList, .taskLog {
+  flex: 1 1 50%;
+  min-height: 200px;
+  min-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.taskForm{
+  margin-bottom: 20px;
+}
